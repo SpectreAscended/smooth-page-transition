@@ -1,0 +1,62 @@
+*, :before, :after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+p {
+  font-size: 2rem;
+}
+
+.nav-list {
+  min-height: 10vh;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  list-style: none;
+  display: flex;
+}
+
+.nav-links {
+  color: #000;
+  font-size: 1.8rem;
+  text-decoration: none;
+}
+
+.home, .about {
+  height: 90vh;
+  width: 100%;
+  position: absolute;
+}
+
+.home-content, .about-content {
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+}
+
+.home-content img, .about-content img {
+  height: 70%;
+}
+
+.home-content h1, .about-content h1 {
+  margin: 3rem 0;
+  font-size: 5rem;
+}
+
+.home {
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+.about {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+/*# sourceMappingURL=index.f9a52ea2.css.map */
